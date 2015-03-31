@@ -1,36 +1,41 @@
-# Infant-mortality-rate-and-education-in-Ghana
-This project would explore the relationship between the level of education and infant mortality rates in Ghana. It uses data from the World Bank Group official website.         By: Esi Yeenuwa Yeboah
+# Relationship between airports around the world and the number of airline routes they connect to
+This project would explore the relationship between different airports around the world in terms of number of airline routes they connect to. It uses data from the OpenFlight official website.                              
+By: Esi Yeenuwa Yeboah
 
 
-Exploring the relationship between Level of Education and Infant Mortality rate in Ghana
+Exploring the relationship between airports around the world and the number of airline routes they connect to
 
 Introduction
 
 
-This project would explore the relationship between level of education and infant mortality rate in Ghana. It would make use of tools such as R to explore the relationship between these indicators and make recommendations based on observed trends.
+This project would explore the relationship between different airports around the world in terms of number of airline routes they connect to. It would further draw relationships between the number of airline routes of airports in a country and the level of economic development that country around the world. It would make use of tools such as R and Ghephi to explore these relationships and make graphical illustrate of them. It uses data from the OpenFlight official website.
 
-About Ghana
+Air Transportation
 
 
-Ghana is a Sub-Saharan African country. Currently, she has a population size of 25.9 million—making it about 1/7th the size of Nigeria. Life expectancy in Ghana is about 60.95% with a population growth rate of about 21.19—2014 estimate (Index Mundi, 2014).
+Air transport is by far the fastest means of transportation around the globe. While ariline flights are usually used for human transportation, they are sometimes used to ship high value commodity, which are often perishable and time-sensitive. It carries about 0.5% of the volume of the worlds trade shipment. About 8.7 million people work directly in the aviation industry world wide. For more information, visit  http://www.atag.org/facts-and-figures.html
+
 
 Data Source
+The airport data for this project was obtained from http://openflights.org/data.html 
+It contains information on more that 6000 airports around the globe.
+
+Aiprorts data
+
+The data contains information on some 6977 airports around the globe. It has data on the Airport ID, Name, City, Country, FAA(A three letter code for a country ),ICAO() longitude, latitude and others. 
+To obtain the data, navigate to
+http://openflights.org/data.html. Click airport.dat link to download data.
+
+Airline routes data
+
+The routes data is directional. If an airline operates from A to B and from B to A, both are listed in the data. Although the routes data does not contain the names of airports, it contains code that makes it possible to link the data to the airport data.
+To obtain the data, navigate to 
+http://openflights.org/data.html. Click routes.dat link to download data.
 
 
-Level of Education data
-
-The data is the education database on Ghana downloaded at World Bank official website. Although the data contains almost 3000 various such as Population of the official age for secondary education, female (number,) running from 1960 to 2013, it has some empty slots for some of the data set. Below is the url from which the data was download:
-http://databank.worldbank.org/data/views/variableselection/selectvariables.aspx?source=education-statistics-~-all-indicators# 
-Mortality rate data
-
- The data was downloaded from the url below: http://data.worldbank.org/indicator/SH.DYN.MORT It contains data on the Mortality rate, under-5(per 1000 births) in Ghana from 1960 to 2013. It has some empty data sets.
-
-Rural populace data
-
-The url can be found at http://data.worldbank.org/indicator/SP.RUR.TOTL/countries/1W?display=graph It contains data on the different on the rural population in Ghana from 1960 to 2013. It would be interesting to explore the relationship between mortality rate and rural populace trend.
 
 References:
 
-Index Mundi (2014, August 23). Ghana Demographic Profile 2014. Retrieved from http://www.indexmundi.com/ghana/demographics_profile.html 
+Atag (2015). Facts & Figures. Retrieved from http://www.atag.org/facts-and-figures.html 
 
 
