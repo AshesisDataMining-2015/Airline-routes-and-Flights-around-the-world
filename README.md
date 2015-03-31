@@ -1,4 +1,4 @@
-# Exploring the relationship between airports around the world
+# Exploring relationships between airports around the world
 This project would explore the relationship between different airports around the world in terms of number of airline routes they connect to. It uses data from the OpenFlight official website.                              
 By: Esi Yeenuwa Yeboah
 
