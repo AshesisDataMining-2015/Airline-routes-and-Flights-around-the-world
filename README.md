@@ -17,8 +17,9 @@ Air transport is by far the fastest means of transportation around the globe. Wh
 
 
 Data Source
+
+
 The airport data for this project was obtained from http://openflights.org/data.html 
-It contains information on more that 6000 airports around the globe.
 
 Aiprorts data
 
