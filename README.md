@@ -8,7 +8,7 @@ By: Esi Yeenuwa Yeboah
 
 This project would explore the relationship between different airports around the world in terms of number of airline routes they connect to. It would further draw relationships between the number of airline routes of airports in a country and the level of economic development that country around the world. It would make use of tools such as R and Ghephi to explore these relationships and make graphical illustrate of them. It uses data from the OpenFlight official website.
 
-# Air Transportation
+Air Transportation
 
 
 Air transport is by far the fastest means of transportation around the globe. While ariline flights are usually used for human transportation, they are sometimes used to ship high value commodity, which are often perishable and time-sensitive. It carries about 0.5% of the volume of the worlds trade shipment. About 8.7 million people work directly in the aviation industry world wide. For more information, visit  http://www.atag.org/facts-and-figures.html
