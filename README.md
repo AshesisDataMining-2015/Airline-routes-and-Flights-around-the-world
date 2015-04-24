@@ -37,4 +37,23 @@ http://openflights.org/data.html. Click routes.dat link to download data.
 
 Atag (2015). Facts & Figures. Retrieved from http://www.atag.org/facts-and-figures.html on 31/03/2015
 
+#Organisation of Data
 
+Cleaning data
+
+preprocAustralia.sh contains the code for the script files that must be run on the run to clean the raw data(airports.dat and routes.dat)
+airports.gml was the file that was created after running the preprocAustrlia.sh script using Cigwin
+
+
+
+degree.png and modularity.png contains pictures of graphs produced in Gephi when the airport nodes were grouped based on its degree and its modularity class. The gephisummary.csv contains the results that was obtained when various statics like Modularity, degree and clossness centrality werer run
+
+R Code
+The rScript.r file contains that R code the was used to produce a graph of the the various geographic regions of the airport nodes and their modularity.
+
+Excecl
+
+the "least and most active airlines charts.xlsx"  contains the graphs tht contain the information on the busiest airports and the least busiest airports.
+
+Power Point
+Airports Slides.pot  contains slides to explain the whole project
